@@ -1,12 +1,9 @@
-// Create a variable name to store your name
-const name = "Sanjay Baro";
+// Problem 3: Given 2 numbers a and b print which is greater or "both equal".
 
-// Create a variable age to store your age
-const age = 25;
-
-// Print the values stored in the variable on one line followed by the type of the variable in the next line
-console.log(name,age);
-console.log(typeof (name),typeof (age));
-
-
-
+let a=8;
+let b=7;
+if(a>b){
+  console.log("a is greater than b");
+}else if(a==b){
+  console.log("both equal");
+}

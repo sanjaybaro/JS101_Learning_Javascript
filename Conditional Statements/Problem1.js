@@ -1,8 +1,8 @@
-//Print "Masai School" in the console followed by "A Transformation in Education" in next line
+// Problem 1: If the number is divisible by 3, print a "multiple of 3".
 
-
-let name = "Masai School";
-console.log(name);
-
-let name_1="A Transformation in Education";
-console.log(name_1);
+let x=18;
+if(x%3==0){
+  console.log("multiple of 3");
+}else{
+  console.log("not multiple of 3");
+}
